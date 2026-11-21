@@ -4,6 +4,7 @@ import WhatsNew from "../Components/WhatsNew";
 import Question from "../Components/Question";
 import ApplicationProcess from "../Components/ApplicationProcess";
 import Banner from "../Components/Banner";
+import Footer from "../Components/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Question />
       <ApplicationProcess/>
       <Banner/>
+      <Footer/>
     </div>
   );
 }
