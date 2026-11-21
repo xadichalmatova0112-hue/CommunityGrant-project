@@ -2,6 +2,7 @@ import ProjectCards from "../Components/ProjectCards";
 import FirstSecction from "../Components/FirstSecction";
 import WhatsNew from "../Components/WhatsNew";
 import Question from "../Components/Question";
+import ApplicationProcess from "../Components/ApplicationProcess";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <ProjectCards />
       <WhatsNew />
       <Question />
+      <ApplicationProcess/>
     </div>
   );
 }
