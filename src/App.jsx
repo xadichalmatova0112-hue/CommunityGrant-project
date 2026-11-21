@@ -1,9 +1,13 @@
-import React from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./Components/Navbar";
 
-const App = () => {
+
+export default function App() {
   return (
-    <div>App</div>
-  )
-}
+    <div className="min-h-screen flex flex-col bg-[#1C1C28]">
+      <Navbar/>
+     
+    </div>
 
-export default App
+  );
+}
