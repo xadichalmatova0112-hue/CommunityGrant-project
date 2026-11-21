@@ -3,6 +3,7 @@ import FirstSecction from "../Components/FirstSecction";
 import WhatsNew from "../Components/WhatsNew";
 import Question from "../Components/Question";
 import ApplicationProcess from "../Components/ApplicationProcess";
+import Banner from "../Components/Banner";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <WhatsNew />
       <Question />
       <ApplicationProcess/>
+      <Banner/>
     </div>
   );
 }
