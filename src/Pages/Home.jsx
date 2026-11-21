@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { FiArrowRight, FiArrowDown } from "react-icons/fi";
+import ProjectCards from "../Components/ProjectCards";
 
 export default function Home() {
   return (
@@ -52,6 +53,8 @@ export default function Home() {
           View all funded projects <FiArrowRight />
         </Link>
       </section>
+
+      <ProjectCards/>
     </div>
   );
 }
