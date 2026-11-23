@@ -5,7 +5,7 @@ import { FaTwitter, FaDiscord } from "react-icons/fa";
 export default function Footer() {
   return (
     <footer className="w-full bg-[#1C1C28] mt-20">
-      <div className="max-w-[1220px] mx-auto flex flex-col md:flex-row items-center justify-between gap-[24px]">
+      <div className="max-w-[1220px] mx-auto flex flex-col md:flex-row items-center justify-between gap-[24px] pb-5">
         <div className="flex flex-wrap justify-center md:justify-start items-center gap-[24px] sm:gap-[32px] text-[14px] font-mono text-[#C8C7D8]">
           <Link
             to="/"
@@ -31,7 +31,7 @@ export default function Footer() {
           <a href="https://discord.com" target="_blank" rel="noreferrer" className="hover:text-white">
             <FaDiscord />
           </a>
-        </div>
+        </div> 
       </div>
     </footer>
   );
