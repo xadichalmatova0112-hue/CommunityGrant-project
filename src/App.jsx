@@ -5,18 +5,20 @@ import Footer from './Components/Footer';
 import Home from './Pages/Home';
 import DiscoverInitiatives from './Pages/DiscoverInitiatives';
 import Apply from './Pages/Apply';
+import FundedGrants from './Pages/FundedGrants';
 
 function App() {
   return (
-      <div className="bg-[#1C1C28] min-h-screen flex flex-col justify-between">
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/discover-initiatives" element={<DiscoverInitiatives />} />
-          <Route path="/apply" element={<Apply />} />
-        </Routes>
-        <Footer />
-      </div>
+    <div className="bg-[#1C1C28] min-h-screen flex flex-col justify-between">
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/discover-initiatives" element={<DiscoverInitiatives />} />
+        <Route path="/funded-grants" element={<FundedGrants/>} />
+        <Route path="/apply" element={<Apply />} />
+      </Routes>
+      <Footer />
+    </div>
   );
 }
 
