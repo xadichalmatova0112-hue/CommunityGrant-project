@@ -1,21 +1,23 @@
-import { Routes, Route } from "react-router-dom";
-import Navbar from "./Components/Navbar";
-import Home from "./Pages/Home";
-import Apply from "./Pages/Apply";
-import Footer from "./Components/Footer";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
+import Home from './Pages/Home';
+import DiscoverInitiatives from './Pages/DiscoverInitiatives';
+import Apply from './Pages/Apply';
 
-export default function App() {
+function App() {
   return (
-    <div className="min-h-screen flex flex-col bg-[#1C1C28]">
-      <Navbar />
-      <main className="flex-1">
+      <div className="bg-[#1C1C28] min-h-screen flex flex-col justify-between">
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/apply" element={<Apply/>} />
-         
+          <Route path="/discover-initiatives" element={<DiscoverInitiatives />} />
+          <Route path="/apply" element={<Apply />} />
         </Routes>
-      </main>
-      <Footer/>
-    </div>
+        <Footer />
+      </div>
   );
 }
+
+export default App;

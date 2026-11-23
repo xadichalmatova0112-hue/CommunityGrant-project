@@ -11,7 +11,7 @@ export default function Navbar() {
                 </Link>
 
                 <nav className="hidden lg:flex items-center gap-[32px] text-[14px] font-mono text-[#C8C7D8]">
-                    <Link to="/" className="hover:text-white">Discover initiatives</Link>
+                    <Link to="/discover-initiatives" className="hover:text-white">Discover initiatives</Link>
                     <Link to="/" className="hover:text-white">Funded grants</Link>
                     <Link to="/" className="hover:text-white">Program expenses</Link>
                     <Link to="/" className="hover:text-white">Blog</Link>
